@@ -10,9 +10,8 @@ export default function ProductCard(props) {
       <span>{props.name}</span>
       <p>{props.description}</p>
       <button className="btn">Add to Cart</button>
-      
       <h1>Product Card</h1>
-
+      
     </div>
   );
 }
