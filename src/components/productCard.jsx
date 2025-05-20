@@ -9,7 +9,8 @@ export default function ProductCard(props) {
       <h2>Price: {props.price}</h2>
       <span>{props.name}</span>
       <p>{props.description}</p>
-<h1>Product Card</h1>
+      <button className="btn">Add to Cart</button>
+      <h1>Product Card</h1>
     </div>
   );
 }
